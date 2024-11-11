@@ -412,7 +412,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(images/Services/Banner1.png);
+  background-image: url(images/Services/Footer1.png);
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
@@ -836,6 +836,10 @@ footer .copyright {
 
 /* Cart Page */
 
+#cart {
+  overflow-x: auto;
+}
+
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -1202,6 +1206,20 @@ footer .copyright {
     #form-details form {
       width: 100%;
       margin-bottom: 30px;
+    }
+
+    /* Cart Page */
+    #cart-add {
+      flex-direction: column;
+    }
+
+    #coupon {
+      width: 100%;
+    }
+
+    #Subtotal {
+      width: 100%;
+      padding: 20px;
     }
 
 }
